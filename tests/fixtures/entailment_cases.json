@@ -1,0 +1,38 @@
+[
+  {
+    "name": "exact_support",
+    "claim": "The US Fish Commission distributed carp in 1877.",
+    "quote": "In 1877 the Commission distributed carp to applicants in twenty-five states.",
+    "expected": "SUPPORTED"
+  },
+  {
+    "name": "topically_related_but_establishes_nothing",
+    "claim": "Carp were stocked in American rivers because of a federal food-security program.",
+    "quote": "Carp are a hardy freshwater fish that tolerate low oxygen and warm water.",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "name": "number_not_in_quote",
+    "claim": "The program distributed carp to 298 of the 301 congressional districts.",
+    "quote": "The Commission distributed carp widely across the congressional districts.",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "name": "quote_contradicts_claim",
+    "claim": "Geosmin is detectable by humans only at concentrations above one part per million.",
+    "quote": "Humans can detect geosmin at concentrations as low as a few parts per trillion.",
+    "expected": "CONTRADICTED"
+  },
+  {
+    "name": "supports_half_the_conjunction",
+    "claim": "Tilapia farming began in the Philippines in 1988 and reached the United States by 1990.",
+    "quote": "The GIFT selective-breeding program for tilapia began in the Philippines in 1988.",
+    "expected": "PARTIAL"
+  },
+  {
+    "name": "date_shifted",
+    "claim": "Rudolph Hessel brought carp to the United States in 1897.",
+    "quote": "Rudolph Hessel imported carp to the United States in 1877.",
+    "expected": "CONTRADICTED"
+  }
+]

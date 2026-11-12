@@ -1,0 +1,26 @@
+{
+  "scenes": {
+    "scene_bus_stop_morning": "an american suburban street early morning, a yellow school bus stopped with its red stop arm swung out, front lawns and mailboxes",
+    "scene_bus_interior": "the inside of an american school bus looking down the aisle, rows of tall closely spaced padded bench seats, empty, morning light through the windows",
+    "scene_crash_sled": "a vehicle crash test laboratory, a school bus seat assembly bolted to a steel sled, measuring rig and floor markings",
+    "scene_highway_mismatch": "an american interstate, a huge yellow school bus in the near lane and a small sedan alongside it, flat open landscape",
+    "scene_school_yard": "children with backpacks walking toward a waiting yellow school bus outside a low brick american school building",
+    "scene_bus_factory": "a school bus body under assembly in a factory, steel side panels and riveted joints, overhead gantry",
+    "scene_rollover_rig": "a school bus body in a test rig with a large flat steel plate pressing down on its roof, industrial hall",
+    "scene_emergency_exit": "the rear emergency door of a yellow school bus standing open in an empty parking lot, handle and warning markings"
+  },
+  "icons": {
+    "bus": "a yellow american school bus seen from the side",
+    "seat": "one single school bus bench seat alone in empty space, side view, floating, nothing around it",
+    "belt": "a car seat belt with its metal buckle, laid out flat",
+    "child": "a young school child standing, wearing a backpack",
+    "car": "a small family sedan seen from the side",
+    "truck": "a large articulated freight truck seen from the side",
+    "egg": "a single chicken egg",
+    "carton": "one single open cardboard egg carton alone in empty space, nothing around it",
+    "driver": "one single bus steering wheel alone in empty space, nothing around it",
+    "window": "a single school bus side window with its sliding upper pane",
+    "door": "one single folding bus door panel alone in empty space, nothing around it",
+    "road": "a short stretch of two lane road with a dashed centre line"
+  }
+}

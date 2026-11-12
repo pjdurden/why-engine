@@ -1,0 +1,25 @@
+.venv/
+*.egg-info/
+runs/
+*.pyc
+__pycache__/
+.env
+cache/
+
+# Scratch and derived output. build/ holds rendered video, extracted reference
+# frames and TTS wavs; none of it belongs in history and some of it is third
+# party material used only for measurement.
+build/
+
+# Voice models are 60-115MB each and fetched on demand by tools/fetch_voices.sh.
+# A 115MB file also exceeds GitHub's hard per-file limit and blocks any push.
+assets/voices/
+assets/candidates/
+assets/archival/
+
+# The asset library IS committed: FLUX is stochastic, so rebuilding produces a
+# different-looking character. It is the channel identity, not a derived artifact.
+!assets/library/
+
+# Per-run artifacts: scripts, verdicts, audio and video for one topic.
+runs/
